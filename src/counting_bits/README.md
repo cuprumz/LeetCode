@@ -21,6 +21,7 @@ Can you do it like a boss? Do it without using any builtin function like __built
 
 bits_cnt[x] = bits_cnt[x & (x-1) ] + 1;
 
+```
 0b0000  bits_cnt[0] = 0
 0b0001  bits_cnt[1] = 1
 0b0010  bits_cnt[2] = 1
@@ -44,25 +45,17 @@ bits_cnt[4] = 0b0100 = 0b0100 + 0
 bits_cnt[5] = 0b0101 = 0b0100 + 1
 bits_cnt[6] = 0b0110 = 0b0100 + 2
 bits_cnt[7] = 0b0111 = 0b0100 + 3
+```
 
 
-x & (x - 1)代表
-1&0: 0
-2&1: 0
-3&2: 2
-4&3: 0
-5&4: 4
-6&5: 4
-7&6: 6
-8&7: 0
-9&8: 8
-10&9: 8
-11&10: 10
-12&11: 8
-13&12: 12
-14&13: 12
-15&14: 14
-16&15: 0
-17&16: 16
-18&17: 16
-19&18: 18
+calculate the number of 1's in their binary representation
+```c
+int i = number;
+int n;
+for (n = 0; i != 0; n++) {
+    i = i & (i - 1);
+}
+return n;
+```
+即，bits_cnt[n]代表了 数字n循环的次数即数字n的二进制位为1的个数
+反推，bits_cnt[n] = 1 + bits_cnt[n & (n - 1)]

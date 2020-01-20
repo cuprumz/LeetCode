@@ -3,12 +3,12 @@
 using namespace std;
 
 struct ListNode {
-  int val;
-  ListNode *next;
+    int val;
+    ListNode *next;
 
-  ListNode(int x): val(x), next(NULL) {}
+    ListNode(int x) : val(x), next(NULL) {}
 
-  friend ostream &operator<<(ostream &out, ListNode &node);
+    friend ostream &operator<<(ostream &out, ListNode &node);
 };
 
 ostream &operator<<(ostream &out, ListNode &node) {
@@ -24,7 +24,7 @@ public:
 };
 
 
-ListNode * Solution::mergeTwoLists(ListNode *l1, ListNode *l2) {
+ListNode *Solution::mergeTwoLists(ListNode *l1, ListNode *l2) {
     ListNode *head = NULL;
     ListNode **pTail = &head;
     while (l1 != NULL && l2 != NULL) {
@@ -52,6 +52,26 @@ void printListNode(ListNode *head) {
         }
     }
     cout << endl;
+}
+
+ListNode *mergeSortedListsV2(ListNode *l1, ListNode *l2) {
+    if (l1 == NULL || l2 == NULL) return NULL;
+    ListNode dummy(-1);
+    ListNode *p = &dummy;
+
+    while (l1 != NULL && l2 != NULL) {
+        if (l1->val < l2->val) {
+            p->next = l1;
+            l1 = l1->next;
+        } else {
+            p->next = l2;
+            l2 = l2->next;
+        }
+        p = p->next;
+    }
+
+    p->next = l1 != NULL ? l1 : l2;
+    return dummy.next;
 }
 
 int main(int argc, char **argv) {

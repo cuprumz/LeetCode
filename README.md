@@ -8,3 +8,4 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [Cpp](./src/linked_list_cycle_ii/linked_list_cycle_ii.cc) | [dir](./src/linked_list_cycle_ii/) |
 | 870 | [advantage_shuffle](https://leetcode.com/problems/advantage-shuffle/) | Medium | [Cpp](./src/advantage_shuffle/advantage_shuffle.cc) | [dir](./src/advantage_shuffle/) |
 | 21 | [merge_two_sorted_lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Cpp](./src/merge_two_sorted_lists/merge_two_sorted_lists.cc)  [Java](./src/merge_two_sorted_lists/MergeTwoSortedLists.java) | [dir](./src/merge_two_sorted_lists/) |
+| 350 | [intersection_of_two_arrays_ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [Cpp](./src/intersection_of_two_arrays_ii/intersection_of_two_arrays_ii.cc) | [dir](./src/intersection_of_two_arrays_ii/) |

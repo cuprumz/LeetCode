@@ -23,7 +23,7 @@ else
     dash="${dash}-${w}"
     space="${space} ${w}"
   done
+  mkdir "src/${underscope}"
+  echo "### ${space}" > "src/${underscope}/README.md"
+  echo "| ${id} | [${underscope}](${url}${dash}/) | xx | [Cpp](./src/${underscope}/${underscope}.cc) | [dir](./src/${underscope}/) |" >> README.md
 fi
-mkdir "src/${underscope}"
-echo "### ${space}" > "src/${underscope}/README.md"
-echo "| ${id} | [${underscope}](${url}${dash}/) | xx | [Cpp](./src/${underscope}/${underscope}.cc) | [dir](./src/${underscope}/) |" >> README.md

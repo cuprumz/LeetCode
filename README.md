@@ -11,3 +11,4 @@
 | 350 | [intersection_of_two_arrays_ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [Cpp](./src/intersection_of_two_arrays_ii/intersection_of_two_arrays_ii.cc) | [dir](./src/intersection_of_two_arrays_ii/) |
 | 1314 | [matrix_block_sum](https://leetcode.com/problems/matrix-block-sum/) | Medium | [Cpp](./src/matrix_block_sum/matrix_block_sum.cc) | [dir](./src/matrix_block_sum/) |
 | 23 | [merge_k_sorted_lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [Cpp](./src/merge_k_sorted_lists/merge_k_sorted_lists.cc) | [dir](./src/merge_k_sorted_lists/) |
+| 412 | [fizz_buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [Cpp](./src/fizz_buzz/fizz_buzz.cc) | [dir](./src/fizz_buzz/) |

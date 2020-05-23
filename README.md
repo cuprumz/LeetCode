@@ -13,5 +13,5 @@
 | 23 | [merge_k_sorted_lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [Cpp](./src/merge_k_sorted_lists/merge_k_sorted_lists.cc) | [dir](./src/merge_k_sorted_lists/) |
 | 412 | [fizz_buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [Cpp](./src/fizz_buzz/fizz_buzz.cc) | [dir](./src/fizz_buzz/) |
 | 560 | [subarray_sum_equals_k](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [Cpp](./src/subarray_sum_equals_k/subarray_sum_equals_k.cc) | [dir](./src/subarray_sum_equals_k/) |
-| 55 | [jump_game](https://leetcode.com/problems/jump-game/) | Medium | [Cpp](./src/jump_game/jump_game.cc) | [dir](./src/jump_game/) |
+| 55 | [jump_game](https://leetcode.com/problems/jump-game/) | Medium | [Cpp](./src/jump_game/jump_game.cc) [Rust](./src/jump_game/jump_game.rs) | [dir](./src/jump_game/) |
 | 136 | [single_number](https://leetcode.com/problems/single-number/) | Easy | [Cpp](./src/single_number/single_number.cc) | [dir](./src/single_number/) |

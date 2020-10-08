@@ -16,4 +16,5 @@
 | 55 | [jump_game](https://leetcode.com/problems/jump-game/) | Medium | [Cpp](./src/jump_game/jump_game.cc) [Rust](./src/jump_game/jump_game.rs) | [dir](./src/jump_game/) |
 | 136 | [single_number](https://leetcode.com/problems/single-number/) | Easy | [Cpp](./src/single_number/single_number.cc) | [dir](./src/single_number/) |
 | 20 | [valid_parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Cpp](./src/valid_parentheses/valid_parentheses.cc) | [dir](./src/valid_parentheses/) |
-| 69 | [sqrtx](https://leetcode.com/problems/sqrtx/) | xx | [Cpp](./src/sqrtx/sqrtx.cc) | [dir](./src/sqrtx/) |
+| 69 | [sqrtx](https://leetcode.com/problems/sqrtx/) | Easy | [Cpp](./src/sqrtx/sqrtx.cc) | [dir](./src/sqrtx/) |
+| 1385 | [find_the_distance_value_between_two_arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | Easy | [Cpp](./src/find_the_distance_value_between_two_arrays/find_the_distance_value_between_two_arrays.cc) | [dir](./src/find_the_distance_value_between_two_arrays/) |

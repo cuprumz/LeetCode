@@ -18,3 +18,5 @@
 | 20 | [valid_parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Cpp](./src/valid_parentheses/valid_parentheses.cc) | [dir](./src/valid_parentheses/) |
 | 69 | [sqrtx](https://leetcode.com/problems/sqrtx/) | Easy | [Cpp](./src/sqrtx/sqrtx.cc) | [dir](./src/sqrtx/) |
 | 1385 | [find_the_distance_value_between_two_arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | Easy | [Cpp](./src/find_the_distance_value_between_two_arrays/find_the_distance_value_between_two_arrays.cc) | [dir](./src/find_the_distance_value_between_two_arrays/) |
+| 70 | [climbing_stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Rust](./src/climbing_stairs/climbing_stairs.rs) | [dir](./src/climbing_stairs/) |
+

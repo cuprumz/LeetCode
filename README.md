@@ -20,4 +20,5 @@
 | 1385 | [find_the_distance_value_between_two_arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | Easy | [Cpp](./src/find_the_distance_value_between_two_arrays/find_the_distance_value_between_two_arrays.cc) | [dir](./src/find_the_distance_value_between_two_arrays/) |
 | 70 | [climbing_stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Rust](./src/climbing_stairs/climbing_stairs.rs) | [dir](./src/climbing_stairs/) |
 | 53 | [maximum_subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Cpp](./src/maximum_subarray/maximum_subarray.cc) | [dir](./src/maximum_subarray/) |
-| 121 | [best_time_to_buy_and_sell_stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | xx | [Cpp](./src/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.cc) | [dir](./src/best_time_to_buy_and_sell_stock/) |
+| 121 | [best_time_to_buy_and_sell_stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Cpp](./src/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.cc) | [dir](./src/best_time_to_buy_and_sell_stock/) |
+| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | Easy | [Rust](./src/decode_xored_array/solution.rs) | [dir](./src/decode_xored_array/) |

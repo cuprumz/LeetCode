@@ -25,5 +25,5 @@ else
   done
   mkdir "src/${underscope}"
   echo "### ${space}" > "src/${underscope}/README.md"
-  echo "| ${id} | [${underscope}](${url}${dash}/) | xx | [Cpp](./src/${underscope}/${underscope}.cc) | [dir](./src/${underscope}/) |" >> README.md
+  echo "| ${id} | [${underscope}](${url}${dash}/) | xx | [Rust](./src/${underscope}/solution.rs) | [dir](./src/${underscope}/) |" >> README.md
 fi

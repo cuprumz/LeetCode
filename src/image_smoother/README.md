@@ -8,3 +8,5 @@ Given an m x n integer matrix img representing the grayscale of an image, return
 rounding down: 向下取整
 
 wrong.rs: 没有考虑小于3的情况
+
+如何把特殊情况一般化，而不是一味的分情况讨论 枚举

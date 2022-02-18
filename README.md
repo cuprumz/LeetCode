@@ -23,3 +23,4 @@
 | 121 | [best_time_to_buy_and_sell_stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Cpp](./src/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.cc) | [dir](./src/best_time_to_buy_and_sell_stock/) |
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | Easy | [Rust](./src/decode_xored_array/solution.rs) | [dir](./src/decode_xored_array/) |
 | 661 | [image_smoother](https://leetcode.com/problems/image-smoother) | Easy | [Rust](./src/image_smoother/solution.rs) | [dir](./src/image_smoother/) |
+| 1574 | [shortest_subarray_to_be_removed_to_make_array_sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | Medium | [Rust](./src/shortest_subarray_to_be_removed_to_make_array_sorted/solution.rs) | [dir](./src/shortest_subarray_to_be_removed_to_make_array_sorted/) |

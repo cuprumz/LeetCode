@@ -18,3 +18,7 @@ Array,  Two Pointers,  Binary Search,  Stack,  Monotonic Stack
 
 #### submissions
 - wrong.rs: [1,1,1,2,2,2] excepted 3 output 2
+
+Time Submitted  Status  Runtime Memory  Language
+02/18/2022 23:21	Accepted	8 ms	3.7 MB	rust
+02/18/2022 23:19	Accepted	140 ms	66.9 MB	cpp

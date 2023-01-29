@@ -57,17 +57,25 @@ ListNode *mergeTwoLists01(ListNode *head1, ListNode *head2) {
     ListNode *p1 = head1, *p2 = head2;
     static ListNode dummy(0);
 
-    dummy.next = p1;
+    dummy.next = p1; // 假设p1.val小于p2.val
     ListNode *prev = &dummy;
 
     while (p1 && p2) {
         if (p1->val < p2->val) {
+            // 假设为真
+            // 1.记录前一个节点为p1
             prev = p1;
+            // 2.然后p1后移
             p1 = p1->next;
         } else {
+            // 假设错误 即p2.val小于等于p1.val
+            // 1.下一节点为p2
             prev->next = p2;
+            // 2.p2后移
             p2 = p2->next;
+            // 3.prev后移 效果即prev为新连接的p2节点
             prev = prev->next;
+            // 4.假设p1.val<p2.val
             prev->next = p1;
         }
     }
@@ -90,26 +98,33 @@ ListNode *mergeTwoLists02(ListNode *head1, ListNode *head2) {
         }
     }
 
+    // p1 p2的剩余节点
     ListNode *p = NULL;
     if (p1) {
         p = p1;
     } else if (p2) {
         p = p2;
     }
+
+    // p1 或者 p2 有一个为空
     if (pHead == NULL) {
         return p;
     }
+
+    // 连接剩余节点
     pTail->next = p;
     return pHead;
 }
 
+// 处理p的第一个节点
 void TakeOutNode(ListNode *&head, ListNode *&tail, ListNode *&p) {
     ListNode *pNext = p->next;
+    // head头节点 tail尾节点
     if (head == NULL) {
-        head = tail = p;
+        head = tail = p; // 初始化头尾节点
     } else {
-        tail->next = p;
-        tail = p;
+        tail->next = p; // 操作尾节点指针 连接
+        tail = p; // 尾节点后移
     }
     p->next = NULL;
     p = pNext;

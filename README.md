@@ -27,3 +27,4 @@
 | 2119 | [a_number_after_a_double_reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | Easy | [Rust](./src/a_number_after_a_double_reversal/solution.rs) | [dir](./src/a_number_after_a_double_reversal/) |
 | 2030 | [smallest_k-length_subsequence_with_occurrences_of_a_letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) | Hard | [Rust](./src/smallest_k-length_subsequence_with_occurrences_of_a_letter/solution.rs) | [dir](./src/smallest_k-length_subsequence_with_occurrences_of_a_letter/) |
 | 1480 | [running_sum_of_1d_array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [Rust](./src/running_sum_of_1d_array/solution.rs) | [dir](./src/running_sum_of_1d_array/) |
+| 33 | [search_in_rotated_sorted_array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](./src/search_in_rotated_sorted_array/solution.go) | [dir](./src/search_in_rotated_sorted_array/) |

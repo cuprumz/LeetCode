@@ -28,3 +28,4 @@
 | 2030 | [smallest_k-length_subsequence_with_occurrences_of_a_letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) | Hard | [Rust](./src/smallest_k-length_subsequence_with_occurrences_of_a_letter/solution.rs) | [dir](./src/smallest_k-length_subsequence_with_occurrences_of_a_letter/) |
 | 1480 | [running_sum_of_1d_array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [Rust](./src/running_sum_of_1d_array/solution.rs) | [dir](./src/running_sum_of_1d_array/) |
 | 33 | [search_in_rotated_sorted_array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Go](./src/search_in_rotated_sorted_array/solution.go) | [dir](./src/search_in_rotated_sorted_array/) |
+| 2708 | [maximum_strength_of_a_group](https://leetcode.com/problems/maximum-strength-of-a-group/) | xx | [Rust](./src/maximum_strength_of_a_group/solution.rs) | [dir](./src/maximum_strength_of_a_group/) |

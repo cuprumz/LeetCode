@@ -27,3 +27,6 @@ else
   echo "### ${space}" > "src/${underscope}/README.md"
   echo "| ${id} | [${underscope}](${url}${dash}/) | xx | [Rust](./src/${underscope}/solution.rs) | [dir](./src/${underscope}/) |" >> README.md
 fi
+
+
+python3 sort_readme.py

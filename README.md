@@ -28,4 +28,5 @@
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | Easy | [Rust](./src/decode_xored_array/solution.rs) | [dir](./src/decode_xored_array/) |
 | 2030 | [smallest_k-length_subsequence_with_occurrences_of_a_letter](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/) | Hard | [Rust](./src/smallest_k-length_subsequence_with_occurrences_of_a_letter/solution.rs) | [dir](./src/smallest_k-length_subsequence_with_occurrences_of_a_letter/) |
 | 2119 | [a_number_after_a_double_reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | Easy | [Rust](./src/a_number_after_a_double_reversal/solution.rs) | [dir](./src/a_number_after_a_double_reversal/) |
+| 2631 | [group_by](https://leetcode.com/problems/group-by/) | Medium | [JavaScript](./src/group_by/solution.js) | [dir](./src/group_by/) |
 | 2708 | [maximum_strength_of_a_group](https://leetcode.com/problems/maximum-strength-of-a-group/) | Medium | [Rust](./src/maximum_strength_of_a_group/solution.rs) | [dir](./src/maximum_strength_of_a_group/) |
